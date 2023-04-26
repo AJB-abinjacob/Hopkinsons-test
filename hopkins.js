@@ -6,8 +6,8 @@ If2 = 0.89;  //values changes
 
 // Calaculation
 
-Ra1 = 0.96;
-console.log(Ra1);
+Ra1 = 0.96;  //values changes
+console.log("Ra1 = "+Ra1);
 Ia1 = I0 + Ia2;
 console.log("Ia1 = " + Ia1);
 total_input = V * I0;
