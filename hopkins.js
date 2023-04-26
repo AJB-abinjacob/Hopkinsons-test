@@ -24,7 +24,7 @@ rated_gen_v = 220;    //values changes
 g_output = rated_gen_v * Ia2;
 console.log("generator output = " + g_output);
 g_input =
-  each_machine + rated_gen_v * Ia2 + Math.pow(Ia2, 2) + rated_gen_v * If2;
+  each_machine + rated_gen_v * Ia2 + Math.pow(Ia2, 2)*Ra1 + rated_gen_v * If2;
 console.log("generator input =" + g_input);
 g_efficiency = (g_output / g_input) * 100;
 console.log("generator efficiency = " + g_efficiency);
